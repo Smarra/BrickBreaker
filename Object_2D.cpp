@@ -37,5 +37,4 @@ float Object_2D::getBallPositionAfterImpact(Object_2D* ball)
 {
 	if (ball->posY < this->posY)
 		return this->posY - ball->radius;
-
 }
